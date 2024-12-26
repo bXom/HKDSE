@@ -36,7 +36,7 @@
   "answer": "",
   "marks": ""
 }
-参考 json 结构，将下面的文字，生成新的 json 对象，去除文字中的分数，”question_context”不填写，”answer”不填写，”marks”不填写，
+参考 json 结构，将下面的文字，生成新的 json 对象，去除文字中的分数，”question_context”不填写，”answer”不填写，”marks”不填写，"no" 从 1 开始
 
 - 匹配简答题答案
 
