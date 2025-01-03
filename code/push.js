@@ -80,6 +80,6 @@ async function func() {
     await sendPostRequest(fileName, data, idArr);
   }
   console.log('idArr size: ', idArr.length);
-  writeIntoFile(idArr);
+  if (idArr && idArr.length != 0) writeIntoFile(idArr);
 };
 func();
